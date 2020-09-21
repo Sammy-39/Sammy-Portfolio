@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import resume from '../Files/resume.pdf';
 
 class Navbar extends Component {
 
@@ -28,6 +29,7 @@ class Navbar extends Component {
         return (
             <nav>
             <ul>
+
             <Navitem item="Home" 
             tolink="/"  
             activec={this.activeitem}> </Navitem>
@@ -54,9 +56,13 @@ class Navbar extends Component {
             
             <Navitem item="Contact" 
             tolink="/contact"  
-            activec={this.activeitem}> </Navitem>
-            </ul>
+            activec={this.activeitem}> </Navitem> 
 
+            <a href={resume} download="resume.pdf">
+                Resume
+            </a> 
+
+            </ul>
             </nav>
             )
         }
