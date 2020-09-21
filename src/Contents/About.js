@@ -23,7 +23,11 @@ class About extends Component {
             <br />
             
             <p> 
-                About me. Coming soon......
+                I am a Fresher, aspiring Software Developer with about 5 months of internship experience at Infosys. <br/>
+                Trained in Python and JavaScript and sucessfully lead a team of 4 members in developing a MVC <br/>
+                based application for a month, as part of the internship program. Developed more than 10 passion <br/>
+                projects hosted at github. Passionated towards working in Python or React application development. <br/>
+                New found curiosity - Machine Learning CNN.
             </p>
             
         </div>
